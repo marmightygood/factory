@@ -1,0 +1,23 @@
+
+
+{
+    "name": "Development Factory",
+    "connections": {
+
+    },
+    "datasets": {
+
+    },
+    "pipelines": {
+        "a1": {
+            "tasks" : {
+                "b2": {
+                    "type": "table_copy_task",
+                    "source_dataset" : "id1",
+                    "target_dataset" : "id2",
+                    "truncate_first": true
+                }
+            }
+        }
+    }
+}
