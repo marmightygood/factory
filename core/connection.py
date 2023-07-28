@@ -23,3 +23,4 @@ class new_connection():
         factory_scoped_id = str(uuid.uuid4())
         connection = connection(db_url, factory_scoped_id)
         return connection
+
